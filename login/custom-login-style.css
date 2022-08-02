@@ -1,4 +1,31 @@
-#wp-submit{
-    background-color: #c32929;
-    color: #000;
-   }
+
+   /* Customize Login Screen */
+body.login .button-primary {
+    background-color: orange;
+    border-color: color(orange b(+10%));
+    text-shadow: 0 -1px 1px color(orange b(+15%)),1px 0 1px color(orange b(+15%)),0 1px 1px color(orange b(+15%)),-1px 0 1px color(orange b(+15%));
+    box-shadow: 0 1px 0 color(orange b(+20%));
+  }
+  
+  body.login .button-primary:hover,
+  body.login .button-primary:active,
+  body.login .button-primary:focus {
+    background-color: color(orange b(+7%));
+    border-color: color(orange b(+15%));
+    text-shadow: 0 -1px 1px color(orange b(+20%)),1px 0 1px color(orange b(+20%)),0 1px 1px color(orange b(+20%)),-1px 0 1px color(orange b(+20%));
+    box-shadow: 0 1px 0 color(orange b(+25%));
+  }
+  
+  body.login {
+    background-color: beige;
+  }
+  
+  .login h1 a {
+    color: blue;
+    font-size: 30px;
+    font-weight: 300;
+    background-image: none;
+    width: auto;
+    height: auto;
+    text-indent: 0;
+  }
